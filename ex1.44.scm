@@ -3,7 +3,7 @@
 
 (define (repeated f n)
   (if (= n 1)
-    f   
+    f
     (compose (repeated f (- n 1)) f)))
 
 (define (smooth f)
